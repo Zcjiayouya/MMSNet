@@ -24,12 +24,16 @@ How to use this project:
   
 3.Storage location of data:  
     MMS-Net/data/CZ/Train  
+
+4.File structure of data  
+    
+    
   
-4.How to train the model:  
+5.How to train the model:  
     Our model is modified based on u2net, the model has been modified to MMS-Net.  
     Please click on MMSNet_train, and then it will train. 
   
-5.How to evaluate the performance of the model:  
+6.How to evaluate the performance of the model:  
    You need to modify six places of u2net_metric file.  
       Line 171 represent the pictures you need to predict.  
       Line 172 represent the corresponding labels of the pictures.  
