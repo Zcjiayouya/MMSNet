@@ -47,8 +47,8 @@ def muti_bce_loss_fusion(d0, d1, d2, d3, d4, d5, d6, labels_v):
 data_dir = os.path.join(os.getcwd(), 'data' + os.sep)
 
 
-tra_image_dir = os.path.join('CZ', 'Train', 'Image/')  #训练图片的路径
-tra_label_dir = os.path.join('CZ', 'Train', 'Mask/')
+tra_image_dir = os.path.join('ZC', 'Train', 'Image/')  #训练图片的路径
+tra_label_dir = os.path.join('ZC', 'Train', 'Mask/')
 
 image_ext = '.png'  #图像后缀，改成自己的图片格式
 label_ext = '.png'
