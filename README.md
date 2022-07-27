@@ -1,6 +1,8 @@
 # MMS-Net
 Thank the author of u2net(https://github.com/xuebinqin/U-2-Net) for giving me inspiration.  
 
+Structure of MMS-Net  
+
 How to use this project:  
 1.Operating system environment:This project supports both windows and Linux environments.  
   
