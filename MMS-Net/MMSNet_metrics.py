@@ -48,7 +48,7 @@ def setThershold(image_path):
                 else:
                     right_img[k][m] = 255
         for root, dirs, files in os.walk(image_path, topdown=False):
-            cv.imwrite(r"E:\study\MMS-Net\data\CZ\Train\predict/" + right_masks[i], right_img)
+            cv.imwrite(r"E:\study\MMS-Net\data\CZ\Train\predict_result/" + right_masks[i], right_img)
             break
 
 
@@ -168,8 +168,8 @@ def main():
     # --------- 1. get image path and name ---------
     model_name='MMS-Net'
 
-    image_dir = r'E:\study\MMS-Net\data\CZ\Train\Image/'
-    test_mask_dir = r"E:\study\MMS-Net\data\CZ\Train\Mask/"
+    image_dir = r'E:\study\MMS-Net\data\CZ\Train\test_image/'
+    test_mask_dir = r"E:\study\MMS-Net\data\CZ\Train\test_mask/"
     temp_dir = r'E:\study\MMS-Net\data\CZ\Train\temp/'
     result_dir=r"E:\study\MMS-Net\data\CZ\Train\predict_result/"
 
