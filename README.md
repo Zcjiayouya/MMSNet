@@ -26,16 +26,16 @@ How to use this project:
     MMS-Net/data/CZ/Train  
 
 4.File structure of data  
-    MMS-Net
-    --data
-    ----ZC
-    ------Train
-    --------Image
-    --------Mask
-    --------temp
-    --------predict_result
-    --------test_image
-    --------test_mask
+    MMS-Net  
+    --data  
+    ----ZC  
+    ------Train  
+    --------Image  
+    --------Mask  
+    --------temp  
+    --------predict_result  
+    --------test_image  
+    --------test_mask  
   
 5.How to train the model:  
     Our model is modified based on u2net, the model has been modified to MMS-Net.  
