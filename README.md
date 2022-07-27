@@ -1,4 +1,6 @@
-# MMS-Net
+# MMS-Net  
+The GPU should have 8g  
+
 Thank the author of u2net(https://github.com/xuebinqin/U-2-Net) for giving me inspiration.  
 
 Structure of MMS-Net  
